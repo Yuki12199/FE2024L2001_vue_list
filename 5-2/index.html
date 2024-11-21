@@ -14,7 +14,7 @@
        v-for="(item, i) in menus"
        :key="i"
        class="menu-item"
-      ></li>
+      ><a :href="item.path">{{item.label}}</a></li>
      </ul>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
